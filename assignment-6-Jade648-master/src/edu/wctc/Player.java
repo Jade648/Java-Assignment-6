@@ -1,8 +1,7 @@
 package edu.wctc;
 
 public class Player {
-    // Static field tracks ID to be assigned to next Player object
-    // that is created
+   
     private static int nextPlayerNum = 1;
     private final int playerNum;
     private int countWin;
