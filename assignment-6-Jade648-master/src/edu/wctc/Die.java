@@ -3,8 +3,7 @@ package edu.wctc;
 import java.util.Random;
 
     public class Die {
-        // Static field tracks ID to be assigned to next Die object
-        // that is created
+       
         private static char nextDieNum = 'a';
         private final Random randomGen = new Random();
         private final char dieNum;
